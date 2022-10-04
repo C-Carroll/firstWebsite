@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <title>TITLE GOES HERE</title>
+        <title>Submit Recipes</title>
     </head>
 
     <body>
@@ -17,17 +17,23 @@
                 <legend>LEGEND GOES HERE</legend>
 
                 <div>
-                    text input 1 here
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="first_name">
                 </div>
                 <div>
-                    text input 2 here
+                    <label for="userEmail">Email</label>
+                    <input type="email" id="userEmail" name="user_email">
                 </div>
                 <div>
-                    textarea 1 here
+                    <label for="userRecipe">Your Recipe</label>
+                    <textarea id="userRecipe" name="user_recipe">Add your recipe here...</textarea>
                 </div>
                 <div>
-                    checkbox here
+                    <input type="checkbox" id="newletter" name="newsletter">
+                    <label for="newsletter">Check to sign up for monthly emails</label>
                 </div>
+
+                <button type="submit">Submit your recipe!</button>
 
             </fieldset>
         </form>
