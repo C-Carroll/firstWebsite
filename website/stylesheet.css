@@ -1,0 +1,56 @@
+nav {
+    display:  flex;
+    justify-content: space-around;
+    background-color: #FF9E9E;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 30px;
+    font-size: large;
+
+}
+
+.sticky {
+    /*position: -webkit-sticky;*/
+    position: sticky;
+    top: 3px;
+}
+
+/*#navbar {
+    border: 1px solid #A87F83;
+    padding-inline: 15px;
+    padding-block: 10px;
+}*/
+
+body {
+    background-color: #9effff;
+}
+
+
+
+/* PAGE 1*/
+
+#pageOneHeader {
+    text-align: center;
+}
+
+.pageOneContent h2{
+    margin-left: 25px;
+
+}
+
+.pageOneContent p{
+    margin-inline: 30px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+/* PAGE 2*/
+/* PAGE 3*/
+/* PAGE 4*/
