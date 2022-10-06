@@ -45,12 +45,67 @@ body {
     font-size: 20px;
 }
 
-
-
-
+.page1Img{
+    text-align: center;
+}
 
 
 
 /* PAGE 2*/
+form{
+    text-align: center;
+    padding: 15px;
+
+}
+fieldset{
+   /* width: 150px;
+    height: 300px; */
+    padding: 20px;
+
+}
+fieldset div{
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 7px;
+}
+input{
+    text-align: center;
+}
+.newsLetter {
+    display: inline-block;
+
+}
+.newsLetter{
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    width: 900px;
+    height: 250px;
+    padding: 10px;
+}
+input,
+textarea {
+    background-color: #ebffff;
+    border-radius: 15px;
+}
+
+
 /* PAGE 3*/
+ul {
+    list-style: none;
+    text-align: center;
+
+}
+ li {
+    margin-block: 30px;
+    border: 2mm ridge #ff9eff;
+    padding-top: 15px;
+    }
+
+
+
+
 /* PAGE 4*/
