@@ -120,8 +120,10 @@ ul {
 }
  #page4Images > div {
     border: 2px solid black;
-    height: 300px;
+    height: auto;
     margin: auto;
+    text-align: center;
+    background-color: #ebffff;
  }
 
  #page4Images img{
