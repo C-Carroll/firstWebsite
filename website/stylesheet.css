@@ -58,10 +58,7 @@ form{
 
 }
 fieldset{
-   /* width: 150px;
-    height: 300px; */
     padding: 20px;
-
 }
 fieldset div{
     margin-bottom: 15px;
@@ -89,11 +86,14 @@ textarea{
 input,
 textarea {
     background-color: #ebffff;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 
 /* PAGE 3*/
+#page3Header {
+    text-align: center;
+}
 ul {
     list-style: none;
     text-align: center;
@@ -105,7 +105,26 @@ ul {
     padding-top: 15px;
     }
 
-
-
-
 /* PAGE 4*/
+#page4Header {
+    text-align: center;
+}
+#page4Images {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-areas:
+         "photoOne photoTwo photoThree"
+        "photoFour photoFive photoSix";
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 25px;
+}
+ #page4Images > div {
+    border: 2px solid black;
+    height: 300px;
+    margin: auto;
+ }
+
+ #page4Images img{
+    width: auto;
+    height: 300px;
+ }
